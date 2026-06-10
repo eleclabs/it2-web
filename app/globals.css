@@ -2,7 +2,7 @@
 
 /* Navbar */
 .navbar {
-  background: #1e293b;
+  background: #000099;
   color: white;
   padding: 0.8rem 2rem;
 }
@@ -35,7 +35,9 @@
 }
 
 .nav-links a:hover {
-  color: #38bdf8;
+  color: #ea0a90;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .menu-btn {
@@ -68,4 +70,17 @@
   .nav-links.active {
     display: flex;
   }
+}
+
+
+.footer {
+  background-color: #1e293b;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
